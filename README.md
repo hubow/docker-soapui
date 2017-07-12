@@ -1,1 +1,1 @@
-# docker-soapui
+# SoapUI docker file (Open JRE)
