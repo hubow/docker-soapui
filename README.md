@@ -2,7 +2,7 @@
 
 ## Docker Run example
 ```sh
-$ sudo docker run -i -t --rm \
+$ docker run -i -t --rm \
     -v /<dir on docker host with soapui project>:/opt/soapui/projects \
     -v /<dir  on docker host where test results will be saved>:/opt/soapui/projects/testresult \
     <docker image name> \
@@ -12,7 +12,7 @@ $ sudo docker run -i -t --rm \
 
 ## Docker Run example with custom properties
 ```sh
-$ sudo docker run -i -t --rm \
+$ docker run -i -t --rm \
     -v /<dir on docker host with soapui project>:/opt/soapui/projects \
     -v /<dir  on docker host where test results will be saved>:/opt/soapui/projects/testresult \
     <docker image name> \
