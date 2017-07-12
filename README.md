@@ -1,6 +1,6 @@
 # SoapUI docker file (Open JRE)
 
-## Run Docker example
+## Docker Run example
 ```sh
 $ sudo docker run -i -t --rm \
     -v /<dir on docker host with soapui project>:/opt/soapui/projects \
@@ -9,7 +9,7 @@ $ sudo docker run -i -t --rm \
     -f/opt/soapui/projects/testresult
 ```
 
-## Run Docker example with custom properties
+## Docker Run example with custom properties
 ```sh
 $ sudo docker run -i -t --rm \
     -v /<dir on docker host with soapui project>:/opt/soapui/projects \
